@@ -5,7 +5,7 @@ var tableHeight = 200;
 var numLines = 9;
 var numNeedles = 0;
 var lineGap = 100;
-var needleSize = 95;
+var needleSize = 100;
 var hits = 0;
 var misses = 0;
 
