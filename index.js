@@ -69,7 +69,9 @@ function drawNeedle() {
         }
         needle.css('border-color', colour);
         var pi = (numNeedles * 2) / hits;
-        console.log(numNeedles + ' needles, hits: ' + hits + ' misses: ' + misses + ' Pi guess: ' + pi);
+        var debug = numNeedles + ' needles, hits: ' + hits + ' misses: ' + misses + ' Pi guess: ' + pi;
+        console.log(debug);
+        $('#results').text(debug)
     }
     else {
         //$('#table').remove(needle);
